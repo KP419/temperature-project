@@ -1,0 +1,26 @@
+h1{
+    letter-spacing: 20p;
+}
+
+/*header section*/
+
+.flex-container{
+    display: flex;
+    width: auto;
+    background-color: aqua;
+    border: 20px;
+    border-color: black;
+}
+
+/*main section*/
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .column{
+        width: 100%;
+    }
+}
